@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightslategray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        nav {
+            box-shadow: 3px 3px 5px 2px rgba(0, 0, 0, 0.258);
+            background-color: gray;
+            padding: 5px;
+        }
+
+        a {
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 0px 10px;
+        }
+
+        section {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 4px;
+            text-align: center;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        aside {
+            background-color: gray;
+            color: white;
+            padding: 3px;
+        }
+
+        div {
+            margin: 5px;
+            background-color: white;
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>MENU</h1>
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Exemplo de utilização</h2>
+                <p>Neste exemplo utilizamos a tag 'header' junto com a tag 'nav' para criar um menu. <br>Utilizamos a tag 'main' para separar o conteúdo do site e dentro da tag 'main' utilizamos as tags 'section' e 'article' para separar os conteúdos.</p>
+                <aside>'aside' é uma tag utilizada para referenciar ou relacionar algo ao artigo, como por exemplo o nome do autor do texto.</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Essa seção é o rodapé do site. Exemplo: 'Site desenvolvido por...'</p>
+    </footer>
+    <div>
+        
+    </div>
+</body>
+</html>

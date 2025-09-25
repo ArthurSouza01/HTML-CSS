@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRABALHANDO COM LINKS</title>
+</head>
+<body>
+    <h1>Utilizando links externos</h1>
+    <!-- 
+    Sempre que o link for enviar para fora do site, utilizar o comando 'target="_blank"'.
+
+    Podemos informar ao browser que se trata de um link externo com adicionando a função 'rel="external"'.
+
+    No segundo exemplo abaixo usaremos as duas funções.
+    -->
+    <p>EXEMPLO 1</p>
+    <p>para acessar um <a href="https://gustavoguanabara.github.io/">link externo</a>, devemos colocar o endereço completo na href.</p>
+
+    <p>EXEMPLO 2</p>
+    <p>Esse <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">link</a> mandará para o canal do Youtube do Gustavo Guanabara</p>
+
+    <h1>Usando links internos</h1>
+    <h2>Link interno na mesma pasta</h2>
+
+      <!-- 
+    Podemos adicionar a função rel="prev" Para indicar que o link voltará para página anterior.
+
+    Podemos adicionar a função rel="next" Para indicar que o link irá para próxima página.
+    -->
+    <p><a href="pag2.html" rel="next">Clique aqui</a> para ir para segunda página.</p>
+
+    <h2>Link interno em outra pasta</h2>
+    <p><a href="teste/pag3.html">Clique aqui</a> para ir para terceira página.</p>
+</body>
+</html>
