@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background-size</title>
+    <style>
+        body {
+            height: 100vh;
+            background-color: darkblue;
+            background-image: url(imagens/wallpaper002.jpg);
+            /*background-size: contain;*/ /* PARA EXIBIR 100% DA IMAGEM, PORÉM NÃO NECESSARIAMENTE EXIBE NO FUNDO COMO UM TODO*/
+            background-size: cover; /*PARA EXIBIR PREENCHENDO TODO A TELA DISPONÍVEL*/
+            background-repeat: no-repeat;
+            background-position: center center;
+        }
+
+        main {
+            background-color: white;
+            border: 1px solid black;
+            border-radius: 15px;
+            width: 400px;
+            padding: 10px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Teste de imagem de fundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut voluptatum, corrupti culpa, iure laborum commodi deleniti minima quasi fugit, veniam odio distinctio veritatis voluptate quod. Unde accusamus iste quod vel! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam asperiores animi eius temporibus? Modi quis autem illo voluptate quae explicabo animi nemo, neque qui numquam, cumque blanditiis alias labore laboriosam! Lorem ipsum dolor sit amet consectetur, adipisicing elit. A veritatis, id eum debitis suscipit voluptates ipsam temporibus sint, blanditiis ipsa voluptatibus! Nihil numquam nemo natus expedita eius repellendus vitae sapiente?</p>
+    </main>
+</body>
+</html>
