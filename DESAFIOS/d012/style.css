@@ -14,70 +14,58 @@
 header {
     background-color: black;
     color: white;
-    padding-bottom: 30px;
-    height: 230px;
     text-align: center;
     font-family: var(--fonte1);
 }
 
 header h1 {
+    font-variant: small-caps;
     padding-top: 50px;
-    font-weight: bolder;
-    font-size: 15vh;
     font-family: var(--fonte2);
 }
 
 header p {
-    padding-top: 15px;
+    padding-bottom: 50px;
 }
 
-header p a {
+header a, footer a {
     text-decoration: none;
     color: white;
     font-weight: bolder;
     font-size: 1.1em;
 }
 
-header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-#p1 {
-    padding-top: 5em;
-    padding-bottom: 10em;
+article {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+article.normal {
     background-color: white;
-    height: 100%;
-    
+    color: black;
 }
 
-#p1 p {
-    padding-left: 30px;
-    font-style: italic;
-    font-weight: bolder;
-    font-family: var(--fonte2);
-    font-size: 3em;
-    line-height: 2em;
-}
-
-#p2 {
-    padding-top: 5em;
-    padding-bottom: 10em;
-    background-color: rgba(176, 172, 172, 0.339);
-    background-image: url(imagens/background001.jpg);
-    height: 100%;
-    
-}
-
-#p2 p {
-    max-width: 600px;
-    background-color: rgba(0, 0, 0, 0.379);
-    background-attachment: scroll;
-    background-size: contain;
-    padding-left: 30px;
+article.imagem {
+    background-color: rgb(52, 52, 52);
     color: white;
-    font-style: italic;
-    font-weight: bolder;
-    font-family: var(--fonte2);
-    font-size: 3em;
-    line-height: 2em;
+}
+
+article.imagem p {
+    background-color: rgba(0, 0, 0, 0.491);
+    padding: 15px;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
