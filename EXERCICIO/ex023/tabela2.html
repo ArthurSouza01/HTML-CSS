@@ -14,9 +14,20 @@
             color: white;
         }
 
+        caption {
+            padding: 10px;
+            font-size: 1.5em;
+            font-weight: bold;
+            background-color: rgb(159, 159, 159);
+        }
+
         table {
-            width: 400px;
+            width: 500px;
             border-collapse: collapse;
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
         
         th, td {
@@ -44,10 +55,11 @@
                 TR, TD, TH
     -->
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -66,7 +78,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de população</th>
+                <th scope="row">Total de população</th>
                 <td class="num"><strong>84 352 783</strong></td>
             </tr>
         </tfoot>
