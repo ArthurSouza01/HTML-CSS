@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino de utilização iframe</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        iframe {
+            height: 400px;
+            width: 97vw;
+        }
+    </style>
+</head>
+<body>
+    <h1>Escolha um link abaixo</h1>
+    <p>
+        Ao clicar em algum link abaixo, ele será aberto dentro do iframe configurado nesta página.
+        É como se fosse uma nova aba do navegador, porém dentro do próprio site.
+    </p>
+
+    <p>Nem todos os sites permitem a utilização de iframes</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag1.html" target="teste">Primeira página</a></li>
+        <li><a href="paginas-extras/pag2.html" target="teste">Segunda página</a></li>
+        <li><a href="paginas-extras/pag3.html" target="teste">Terceira página</a></li>
+    </ul>
+
+    <iframe src="paginas-extras/inicial.html" name="teste">
+        <p>Aqui pode colocar uma mensagem ou link, por exemplo, para caso o navegador ou dispositivo não seja compatível com iframe.</p>
+    </iframe>
+    
+</body>
+</html>
