@@ -35,10 +35,28 @@ section#celular {
 }
 
 section > iframe {
-    height: 50vh;
-    width: 20vw;
+    height: 473px;
+    width: 268.5px;
+    transform: translate(21px, 79px);
+    background-size: cover;
+}
 
-    background-color: yellowgreen;
+section#redes-sociais {
+    text-align: right;
+}
+
+section#redes-sociais img {
+    border-radius: 50%;
+    width: 70px;
+    margin: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.501);
+    box-sizing: border-box;
 }
 
 
+section#redes-sociais img:hover {
+    border: 1px solid rgba(187, 220, 238, 0.58);
+    transform: translate(-3px, -3px);
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.501);
+    transition: transform .5s, border .5s; /*definir tempo para realizar os efeitor*/
+}
