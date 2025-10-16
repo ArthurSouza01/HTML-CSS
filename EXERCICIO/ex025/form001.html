@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulério</title>
+    <title>Formulário</title>
 </head>
 <body>
     <h1>Primeiro formulário</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+    <form action="cadastro.php" method="post"> <!-- esse action define para onde o formulário será enviado, aqui está php devido ao exemplo da aula-->
+        <p>
+            <label for="inome">Nome:</label> <!-- a tag label é utilizada para relacionar o título com a caixa de entrada-->
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
         <p><input type="submit" value="Enviar"></p>
     </form>
 </body>
