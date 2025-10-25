@@ -11,8 +11,8 @@
 <body>
     <header>
         <h1>Teste Menu Responsivo</h1>
-        <span id="botao" class="material-symbols-outlined">menu</span>
-        <menu>
+        <span id="botao" onclick="clickMenu()" class="material-symbols-outlined">menu</span>
+        <menu id="menu">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -31,5 +31,14 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sed natus, accusamus quis non alias incidunt fugit ad dicta ratione ipsa voluptatem! Voluptatibus, reprehenderit molestiae. Cupiditate non repudiandae impedit. Cum! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate reiciendis veritatis porro inventore distinctio, quas quo laborum magni minima ullam consequatur est neque, amet asperiores nemo iusto eius molestias earum!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>

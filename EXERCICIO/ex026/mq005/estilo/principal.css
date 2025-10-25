@@ -29,6 +29,15 @@ header span#botao {
     border: 1px solid rgb(170, 171, 171);
 }
 
+header span#botao:hover {
+    cursor: pointer;
+    background-color: rgb(170, 171, 171);
+}
+
+menu {
+    display: none;
+}
+
 li {
     text-align: center;
     display: block;
