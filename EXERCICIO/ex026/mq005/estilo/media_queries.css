@@ -1,2 +1,13 @@
 @charset "UTF-8";
 
+@media screen and (min-width: 600px) {
+    header span#botao {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu li {
+        display: inline-block;
+    }
+}
